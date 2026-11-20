@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  overflow: hidden;
+}
+
+canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+  object-fit: contain;
+}
